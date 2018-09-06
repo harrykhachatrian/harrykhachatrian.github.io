@@ -1,0 +1,274 @@
+/* @override test.css */
+
+/* @group General */
+
+body,html {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	background-color: #D0D0D0;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 12px;
+}
+div.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+img {
+	border: 0;
+	outline: none;
+}
+a {
+    /* color: #ff0000;*/
+    color: gray;
+}
+div.clearificator {
+	clear: both;
+}
+/* @end */
+
+/* @group Header */
+
+
+header {
+    display: block;
+	width: 1000px;
+	height: 163px;
+    /* background-color: black; */
+    background-color: white;
+    background-image: url("pics/full_banner.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    /* border-bottom: 5px solid red; */
+    border-bottom: 5px solid #006699;
+    
+}
+
+
+ 
+
+
+header h1 {
+	margin: 0;
+}
+
+
+
+/* @end */
+
+/* @group Nav */
+
+nav {
+	display: block;
+	height: 35px;
+	background-color: #002A5C;
+	font-size: 14px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 8px;
+}
+nav a:hover {
+	background-color: #006699;
+}
+nav a.selected {
+	font-weight: bold;
+}
+/* @end */
+
+/* @group Sections */
+section {
+	display: block;
+	float: left;
+
+}
+
+/* @group Sidebar
+ */
+
+section.sidebar {
+	width: 120px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+
+/* @end */
+
+/* @group Main */
+
+/*Main Article section width*/
+section.main {
+	width: 690px;
+	margin-top: 10px;	
+}
+section.main article {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	background-color: white;
+	
+}
+section.main article h3 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 26px;
+	margin: 0 0 5px 0;
+}
+section.main article h3 a {
+	text-decoration: none;
+	color: black;
+}
+section.main article h3 a:hover {
+   /* text-decoration: underline;*/
+    color: #006699;
+}
+section.main article div.dateline {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+section.main article figure {
+	width: 60%;
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.left {
+	display: block;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.right {
+	display: block;
+	background-color: white;
+	margin-top: 10px;	
+	padding: 10px;	
+}
+section.main article.left figure {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+section.main article.left figure img {
+	float: left;
+}
+section.main article.right figure {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+section.main article.right figure img {
+	float: right;
+}
+section.main article a.read_more {
+	display: block;
+	clear: both;
+	margin-top: 10px;
+	text-decoration: none;
+}
+section.main article .fb_wrapper {
+	float: right;
+}
+
+
+/* @end */
+
+/* @group Quotations */
+
+section.quotations {
+	width: 300px;
+	margin-left: 10px;
+	margin-top: -35px;
+	background-color: white;
+}
+section.quotations .appearances td {
+	background-color: white;
+}
+section.quotations h2 {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	display: block;
+	background-color: #006699;
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	clear: both;
+}
+section.quotations article {
+	width: 280px;
+	background-color: white;
+}
+section.quotations tr {
+	background-color: white;
+}
+section.quotations td {
+	padding: 5px 10px;
+}
+section.quotations img {
+	padding-left: 10px;
+}
+section.quotations .more_tweets a{
+	padding-left: 10px;
+}
+div#twitter_update_list {
+	padding-left: 10px;
+}
+div#twitter_update_list li {
+	list-style: none;
+	margin: 0 0 10px 0;
+	font-size: 12px;
+	padding: 0 10px 10px 0px;	
+}
+div#twitter_update_list li a {
+	white-space: nowrap;
+	color: #6f7686;
+}
+
+/* @end */
+
+/* @group Detail */
+
+section.detail {
+	width: 960px;
+	background-color: white;
+	margin-top: 10px;
+	padding: 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+section.detail article h3 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 26px;
+	margin: 0 0 5px 0;
+}
+
+section.detail article div.dateline {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+}
+section.detail article div.fb_wrapper {
+	margin-top: 15px;
+}
+/* @end */
+/* @end */
+
+/* @group Misc */
+
+.archive_directory a {
+	color: black;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+}
+.archive_directory tr:hover {
+	background-color: #ebeaeb;
+}
+
+/* @end */
